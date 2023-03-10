@@ -5,36 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
     <title>Molokie Portfolio</title>
+    <Style>
+        body {
+            font-family: 'Noto Serif', serif;
+        }
+    </Style>
+
 </head>
 
 <body>
     <!----- HEADER ----->
-    <header>
-        <h1>Michelle Molokie</h1>
-            <nav> 
-                <ul>
-                    <li>
-                        <a href="#About Me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#Work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#Contact Me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#Resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+    
+    
+    <header class="navigation">
+        <nav class="nav1">
+            <h1>Michelle Molokie</h1>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Linkdin</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Photo Under Header -->
-    <figure class="hero"></figure>
 
-    
+    <main>
+        <img class="headshot" src="./assets/images/profile_pic.jpg"/>
 
+        <section class="about">
+            <h3>About Me</h3>
+                <p>Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Fringilla ut morbi tincidunt augue interdum velit. Urna condimentum mattis pellentesque id nibh tortor. Cras fermentum odio eu feugiat pretium nibh ipsum. Lectus sit amet est placerat. Enim diam vulputate ut pharetra. Posuere ac ut consequat semper viverra nam libero justo laoreet.</p>
+        </section>
+        <section class="work">
+            <h3>Work</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum mattis pellentesque id nibh tortor id aliquet. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Bibendum enim facilisis gravida neque convallis a. Faucibus a pellentesque sit amet. Ac tincidunt vitae semper quis lectus nulla at. Vitae tempus quam pellentesque nec nam aliquam sem et tortor.</p>
+        </section>
+        <section class="ec">
+            <h3>Extra Curriculars</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit duis tristique sollicitudin. Feugiat nisl pretium fusce id velit ut tortor pretium. Euismod quis viverra nibh cras pulvinar mattis nunc. </p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section class="media">
+            <h3>Contact Me</h3>
+                <nav class="nav2">
+                    <ul>
+                        <li><a href= "#">555.555.5555</a></li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Github</a></li>
+                        <li><a href="#">Linkdin</a></li>
+                    </ul>  
+                </nav>
+        </section>
+    </footer>
 </body>
 
 </html>
