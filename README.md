@@ -7,7 +7,7 @@
 -I would like to use this as a starting point of a portfolio to use in the future to apply to job postings.
 -I learned efficient ways to use flexbox in my code.
 
-Deployed URL: https://molokiem.github.io/horiseon_challenge/
+Deployed URL: https://molokiem.github.io/Molokie-Portfolio/
 
 ## Installation
 
